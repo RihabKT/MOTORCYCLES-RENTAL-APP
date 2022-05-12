@@ -1,0 +1,135 @@
+
+ body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  
+  .cardadmin {
+    
+    -webkit-perspective: 50rem;
+            perspective: 50rem;
+    -moz-perspective: 50rem;
+    position: relative;
+    height: 50rem;
+    width: auto;
+  }
+  
+  .cardadmin__side {
+    margin-top: 30px;
+    height: 59rem;
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 100%; 
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.671);
+    box-shadow: 0 1.5rem 4rem rgba(65, 62, 62, 0.349);
+  }
+  
+  .cardadmin__side--front {
+    background-color: #fff;
+  }
+  
+  .cardadmin__side--front-1 {
+    /* background: linear-gradient(-45deg, #fa9aeb, #b5c2cc5b); */
+    background-color: #f1d8ed;
+  }
+
+  .rowadmin {
+    max-width: 114rem;
+     margin: 0 auto; 
+    
+   } 
+  
+  .row:not(:last-child) {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* .row [class^="col-"] {
+    float: left;
+  }
+  
+  .row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem;
+  } */
+  
+  .rowadmin .coladmin{
+    width: 300px;
+    margin-top:70px;
+    padding-bottom: 150px;
+    margin-left: 7px;
+    box-shadow:  rgb(100, 99, 99);
+  }
+  
+ 
+  .cardadmin__title {
+    height: 20rem;
+    padding: 4rem 2rem 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .cardadmin**__title--1 .fas {
+    font-size: 5rem;
+  }
+
+  .EditButton,.DeleteButton{
+  padding: 5px;
+  border-radius: 7px;
+  font-weight: bolder;
+  font-family: cursive;
+  margin-top: 20px;
+  }
+
+  .EditButton{
+      border: 1px solid rgb(179, 30, 122);
+      color:rgb(179, 30, 122);
+      background-color: white;
+    
+
+  }
+
+  .DeleteButton{
+      border: 1px solid white;
+      color: white;
+      background-color: black;
+      margin-left: 30px;
+
+  }
+  .EditButton:hover{
+    opacity: 0.6;
+  }
+
+  .DeleteButton:hover{
+    opacity: 0.6;
+  }
+
+  .flexadminbutton{
+      display: flex;
+      justify-content: space-evenly;
+      
+  }

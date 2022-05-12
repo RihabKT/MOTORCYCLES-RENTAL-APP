@@ -1,0 +1,11 @@
+.filterinput{
+    width:350px;
+  padding: 7px;
+   margin-top: 130px;
+   border-radius: 15px;
+   border: 2px solid rgb(192, 31, 138) ;
+   text-align: center;
+   color: black;
+   background-color:rgb(250, 233, 239) ;
+}
+

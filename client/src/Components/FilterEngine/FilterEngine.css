@@ -1,0 +1,21 @@
+.optionengine{
+    font-family: cursive;
+    color: black;
+    background-color: rgb(250, 233, 239) ;
+}
+
+.selectengine:hover{
+    background-color:rgb(235, 177, 215) ;
+    border: 2px solid rgb(192, 31, 138) ;
+}
+
+
+.selectengine{
+    font-family: cursive;
+    color: black;
+    font-weight:300;
+    background-color: rgb(250, 233, 239) ;
+    border: 2px solid rgb(192, 31, 138) ;
+    border-radius: 9px;
+    padding: 5px;
+}

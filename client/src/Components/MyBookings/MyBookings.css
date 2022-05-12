@@ -1,0 +1,46 @@
+.titlemybookings{
+  color: rgb(192, 31, 138);
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: x-large;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.mybookingspage{
+    min-height: 92vh;
+    
+}
+
+.mybookingtable{
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+  border: 2px solid purple;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.tdmybooking{
+   padding: 15px;
+   border: 3px solid purple;
+}
+
+.tdmybooking:hover{
+   background-color: rgb(248, 233, 248);
+}
+
+.thmybooking{
+   padding: 20px;
+   font-size: smaller;
+   font-weight: bolder;
+   font-family: cursive;
+   color:#b91395;
+   border: 3px solid purple;
+}
+
+.thmybooking:hover{
+   background-color: rgb(252, 241, 244);
+}
+

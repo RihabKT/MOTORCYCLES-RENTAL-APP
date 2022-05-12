@@ -1,0 +1,57 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(245, 223, 244);
+    padding: 5px ;
+    width:100%;
+     left:0;
+    bottom:0;
+    z-index: 10; 
+    box-shadow: 10px 7px 25px 0px rgba(0,0,0,0.52);
+    cursor: pointer;
+    height: 60px;
+    
+}
+
+.lastfooter{
+    color:rgb(9, 9, 58);
+    font-family: cursive;
+    font-size:xx-small;
+    text-align: center;
+}
+
+#socialfooter{
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+
+#mediafooter{
+    color:rgb(9, 9, 58);
+    font-size: larger;
+}
+
+#mediafooter:hover{
+    transform: scale(1.5);
+    color:rgb(192, 31, 138);
+}
+
+.fa-instagram{
+    margin-top: 5px;
+}
+
+.fa-github{
+    margin-top: 5px;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-left: 300px;
+}
+
+#rightsfooter{
+    margin-left: 300px;
+}

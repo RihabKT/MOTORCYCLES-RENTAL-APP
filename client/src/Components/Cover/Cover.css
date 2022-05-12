@@ -1,0 +1,149 @@
+.itemcover {
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+   margin-top: 150px;
+    background-color: white;
+    text-align: center;
+    color: rgb(11, 11, 68);
+   
+  }
+
+ 
+  
+  .flexycover{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+
+          width: 270px;
+          height: 50px;
+          cursor: pointer;
+          /* border: 0px solid #5b3f69;
+          background: #34283b; */
+          border: 1px solid #9c0b7d;
+          border-radius: 5px;
+          background-image: linear-gradient(to right, #08020023 , rgba(189, 18, 138, 0.575));
+          transition: 200ms;
+          margin-top:50px;
+         
+
+  }
+
+  .noselect:hover {
+	border: 6px solid #9c0b7d;
+}
+
+  .spanbtn{
+    position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	font-family: cursive;
+  font-weight: bold;
+	font-size: 10px;
+	color: black;
+	transition: 600ms;
+  }
+
+  .spanbtn:hover{
+      letter-spacing: 4px;
+  font-weight:bolder;
+  font-size: larger;
+  }
+
+  .flexybtncover{
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+
+  .aboutusmodal{
+    
+      position: relative;
+      left: 15%;
+      padding: 10px;
+     margin-top: 90px;
+      width: 1000px;
+      height: 560px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: rgb(239, 228, 241);
+     cursor: pointer;
+  }
+
+  .aboutustitle{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: cursive;
+    color:#a70f86;
+    margin-left: 10px;
+  }
+
+  .aboutustext{
+    color: black;
+    font-family: cursive;
+    text-align: left;
+   font-size: 13px;
+   font-weight:600;
+  }
+
+  .stepsaboutus{
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(32, 17, 99);
+    text-align: left;
+  }
+
+  .noticeaboutus{
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(32, 17, 99);
+    text-align: left;
+  }
+
+  .lastaboutus{
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(187, 65, 106);
+  }
+
+  .btnaboutus{
+    background-color: black;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-family: cursive;
+	font-weight: bolder;
+  padding: 5px;
+  margin-top: 10px;
+  }
+
+  .btnaboutus:hover{
+    background-color: gray;
+  color:#a70f86;
+  }
+
+  .flexaboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imageaboutus{
+    margin-left: 15px;
+  }

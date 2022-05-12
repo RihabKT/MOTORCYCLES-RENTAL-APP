@@ -1,0 +1,71 @@
+.flexybook{
+    display: flex;
+    justify-content: space-around;
+}
+
+.descriptionbook{
+    width:500px;
+    padding-top: 30px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.flexyslot{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   padding-left: 50px;
+  
+}
+
+
+
+.totdays,.rentmotoprice,.checkslot{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 250px;
+    color: rgb(26, 26, 109);
+
+}
+
+.rentmotoprice, .totamount,.checkslot{
+    padding-top: 15px ;
+    
+}
+
+.totamount{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 250px;
+    color: rgb(173, 36, 139);
+    text-decoration: underline;
+
+}
+
+.rentalbtn{
+    padding: 10px;
+	border-radius: 7px;
+	color: white;
+	border: 1px solid white;
+	font-size: small;
+	font-weight: bolder;
+	background-color:black;
+	font-family: cursive;
+	margin-left: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.rentalbtn:hover{
+    background-color: gray;
+}
+
+.rangepicker{
+    background-color:rgb(250, 233, 239) ;
+    border: 1px solid black;
+}
+
+.rangepicker:hover{
+    border: 1px solid black;
+}

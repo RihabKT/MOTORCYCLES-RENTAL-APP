@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+.flexyprofile{
+    display:flex;
+    justify-content: center;
+
+}
+
+.profilecontent {
+	background-color: rgb(218, 218, 218);
+	font-family: Montserrat, sans-serif;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  width:100%;
+	min-height: 650px;
+ 
+	
+}
+
+.profilename {
+	margin: 10px 0;
+	text-transform: uppercase;
+    color: rgb(192, 64, 124);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.profilelastname {
+	padding-left: 5px ;
+	text-transform: uppercase;
+    margin: 10px 0;
+    color: rgb(192, 64, 124);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.profileemail {
+	margin: 5px 0;
+    color: rgb(27, 22, 95);
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.flexyaddress{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+
+.profileaddress{
+	margin: 5px 0;
+	text-transform: uppercase;
+    color: rgb(61, 56, 56);
+    
+    font-size: 15px;
+    font-weight: bolder;
+	font-family: cursive;
+}
+
+.profilephone {
+	margin: 5px 0;
+    color: rgb(162, 31, 202);
+	padding-top: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+
+.profiletext {
+	font-size: 14px;
+	line-height: 21px;
+    padding-top: 10px;
+    color: rgb(82, 89, 182);
+    font-weight: bolder;
+    font-family: cursive;
+
+}
+
+.card-container {
+	background-color: rgb(255, 234, 249);
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgb(218, 208, 214);
+	color: #B3B8CD;
+	min-height: 50vh;
+	position: relative;
+	width: 1000px;
+	text-align: center;
+	padding: 10px;
+    
+}
+
+.card-container .pro {
+	color: #231E39;
+	background-color: #fe0bad65;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.card-container .round {
+	border: 1px solid #a70f86;
+	border-radius: 30%;
+	padding: 10px;
+	width:210px;
+}
+
+.btnmessage {
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 7px;
+	color: white;
+	font-family: cursive;
+	font-weight: bolder;
+	padding: 10px 25px;
+    margin-top: 13px;
+}
+
+.btnmessage:hover{
+  background-color: transparent;
+  color:#a70f86;
+}
+
+.btnfollow {
+  background-color: transparent;
+	border: 1px solid black;
+	border-radius: 7px;
+	color: black;
+	font-family: cursive;
+	font-weight: bolder;
+  padding: 10px 25px;
+    margin-top: 13px;
+}
+
+.btnfollow:hover{
+  background-color: black;
+  color:#a70f86;
+}
+
+
+
+  
+  
+
+  

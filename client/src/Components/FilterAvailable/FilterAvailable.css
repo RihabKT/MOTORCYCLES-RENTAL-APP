@@ -1,0 +1,27 @@
+.searchAvailable{
+    background-color:rgb(250, 233, 239) ;
+	border: 1px solid rgb(192, 31, 138);
+	border-radius: 7px;
+	color: rgb(192, 31, 138);
+	font-family: cursive;
+	font-weight: bolder;
+    padding: 7px;
+}
+
+.searchAvailable:hover{
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.checkAvailable{
+    font-family: cursive;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(192, 31, 138);
+}
+
+.filtercheckbox{
+    width: 25px;
+    cursor: pointer;
+}

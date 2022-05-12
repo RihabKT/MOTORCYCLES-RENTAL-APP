@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+main{
+  color:black;
+  
+}
+
+
+
+/* @media screen and  (max-device-width: 960px)  {
+body{
+  cursor: pointer;
+  width: auto;
+ 
+  
+}
+} */
+
+@media screen and (max-width: 1500px) {
+  body{ 
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  body {
+      width: 25%;
+  }
+}
